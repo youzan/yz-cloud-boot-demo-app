@@ -17,6 +17,10 @@
 
 `./vendor/vimac/yz-cloud-boot/bin/php_dev_server.sh`
 
+或者如果安装了 XDebug, 可以开启方便调试
+
+`./vendor/vimac/yz-cloud-boot/bin/php_dev_server.sh -d`
+
 然后
 
 `curl -d '' http://localhost:18888/_bep/demo/test`
