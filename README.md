@@ -21,6 +21,10 @@
 
 `./vendor/vimac/yz-cloud-boot/bin/php_dev_server.sh -d`
 
-然后
+扩展点模拟测试：
 
 `curl -d '' http://localhost:18888/_bep/demo/test`
+
+Web 访问测试：
+
+直接浏览器访问 http://localhost:18888
