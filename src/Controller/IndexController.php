@@ -11,7 +11,7 @@ class IndexController extends BaseController
 
     public function index(Request $request, Response $response, $args)
     {
-        echo "1234";
+        return $response->withJson(['json' => 'test']);
     }
 
 }
