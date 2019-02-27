@@ -23,7 +23,7 @@
 
 扩展点模拟测试：
 
-`curl -d '' http://localhost:18888/_bep/demo/test`
+`curl -d '' -H 'Bean-Name:demo' http://localhost:18888/_bep/service/test`
 
 Web 访问测试：
 
