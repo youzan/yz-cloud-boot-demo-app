@@ -2,7 +2,7 @@
 
 namespace YouzanCloudBootApp\Bep;
 
-use YouzanCloudBoot\Bep\BaseBusinessExtensionPointImpl;
+use YouzanCloudBoot\ExtensionPoint\BaseBusinessExtensionPointImpl;
 
 class DemoBepImpl extends BaseBusinessExtensionPointImpl
 {

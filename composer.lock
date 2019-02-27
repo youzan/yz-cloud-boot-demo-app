@@ -482,7 +482,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/vimac/yz-cloud-boot",
-                "reference": "96c99ee64637ea461dfe548ae266f2371fe5dbcb"
+                "reference": "56fbc1dbb2412ec0d8e74bbd48169845c3ffa232"
             },
             "require": {
                 "monolog/monolog": "^1.24",
@@ -517,7 +517,7 @@
                     "email": "vifix.mac@gmail.com"
                 }
             ],
-            "time": "2019-02-26T14:32:37+00:00"
+            "time": "2019-02-27T11:13:12+00:00"
         }
     ],
     "packages-dev": [],
