@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "vimac/yz-cloud-boot": "dev-master"
+        "youzanyun/yz-cloud-boot": "dev-master"
     },
     "autoload": {
         "psr-4": {
