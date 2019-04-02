@@ -1,5 +1,5 @@
 {
-    "name": "vimac/yz-cloud-boot-demo-app",
+    "name": "youzanyun/yz-cloud-boot-demo-app",
     "description": "Just a demo app",
     "type": "project",
     "license": "MIT",
@@ -8,7 +8,7 @@
     "repositories": [
         {
             "type":"git",
-            "url": "https://github.com/vimac/yz-cloud-boot"
+            "url": "https://github.com/youzanyun/yz-cloud-boot"
         }
     ],
     "require": {
