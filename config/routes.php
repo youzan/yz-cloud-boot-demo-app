@@ -2,4 +2,4 @@
 
 /** @var \Slim\App $app */
 
-$app->get('/', \YouzanCloudBootApp\Controller\IndexController::class . ':index');
+//$app->get('/', \YouzanCloudBootApp\Controller\IndexController::class . ':index');
