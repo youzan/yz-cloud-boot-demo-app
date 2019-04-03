@@ -434,7 +434,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/youzanyun/extension-point-api",
-                "reference": "ddca874a8d2719794740fca0441125a80691cff5"
+                "reference": "e67d496c179c5dee1c77cad2949dbb832016ab44"
             },
             "require": {
                 "php": ">=7.1.0"
@@ -445,7 +445,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "ExtensionPointApi\\": "src"
+                    "Com\\Youzan\\": "src"
                 }
             },
             "license": [
@@ -457,7 +457,7 @@
                     "email": "wangxing@youzan.com"
                 }
             ],
-            "time": "2019-04-03T03:37:51+00:00"
+            "time": "2019-04-03T10:15:24+00:00"
         },
         {
             "name": "youzanyun/yz-cloud-boot",
@@ -465,7 +465,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/youzanyun/yz-cloud-boot",
-                "reference": "3c7e7bce1fac1715bd76d4370369152bd2c071b2"
+                "reference": "393a22885c1588ba641c824205117244098af1d3"
             },
             "require": {
                 "ext-json": "*",
@@ -502,7 +502,7 @@
                     "email": "vifix.mac@gmail.com"
                 }
             ],
-            "time": "2019-04-02T08:40:05+00:00"
+            "time": "2019-04-03T09:12:19+00:00"
         }
     ],
     "packages-dev": [],

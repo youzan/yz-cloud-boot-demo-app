@@ -2,11 +2,11 @@
 
 namespace YouzanCloudBootApp\Bep;
 
-use ExtensionPointApi\Com\Youzan\Cloud\Extension\Param\Test\BizTestOutParam;
-use ExtensionPointApi\Com\Youzan\Cloud\Extension\Param\Test\BizTestRequest;
-use ExtensionPointApi\Com\Youzan\Cloud\Extension\Param\Test\BizTestResponse;
+use Com\Youzan\Cloud\Extension\Param\Test\BizTestOutParam;
+use Com\Youzan\Cloud\Extension\Param\Test\BizTestRequest;
+use Com\Youzan\Cloud\Extension\Param\Test\BizTestResponse;
 use YouzanCloudBoot\ExtensionPoint\BaseBusinessExtensionPointImpl;
-use ExtensionPointApi\Com\Youzan\Cloud\Extension\Api\BizTestService;
+use Com\Youzan\Cloud\Extension\Api\BizTestService;
 
 class DemoBepImpl extends BaseBusinessExtensionPointImpl implements BizTestService
 {
