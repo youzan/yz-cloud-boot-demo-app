@@ -23,7 +23,7 @@
 
 扩展点模拟测试：
 
-`curl -d '' -H 'Bean-Name:demo' http://localhost:18888/_bep/service/test`
+`curl -XPOST "http://localhost:18888/business-extension-point/com.youzan.cloud.extension.api.BizTestService/invoke" -H 'Content-Type:application/json'  -H 'Transfer-Encoding:chunked' -H 'Bean-Name:testBep' -H 'Bean-Tag:1.0.0' -H 'Param-Type:com.youzan.cloud.extension.param.test.TestRequest'  -d '{"requestId":1,"data":{"number":100,"content":"测试扩展点"}}'`
 
 Web 访问测试：
 
