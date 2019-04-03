@@ -15,11 +15,11 @@
 
 先运行
 
-`./vendor/vimac/yz-cloud-boot/bin/php_dev_server.sh`
+`./vendor/youzanyun/yz-cloud-boot/bin/php_dev_server.sh`
 
 或者如果安装了 XDebug, 可以开启方便调试
 
-`./vendor/vimac/yz-cloud-boot/bin/php_dev_server.sh -d`
+`./vendor/youzanyun/yz-cloud-boot/bin/php_dev_server.sh -d`
 
 扩展点模拟测试：
 
