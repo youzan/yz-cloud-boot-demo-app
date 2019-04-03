@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6dfb681a16dfc596373f3569f3cd4cf9",
+    "content-hash": "473dd389413a67bf3fd54a374b02bcb3",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -18,13 +18,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
                 "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "psr/container": "^1.0"
@@ -55,13 +49,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
                 "reference": "bfc9ebb28f97e7a24c45bdc3f0ff482e47bb0266",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
@@ -139,13 +127,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
                 "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
@@ -191,13 +173,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/silexphp/Pimple/zipball/9e403941ef9d65d20cba7d54e29fe906db42cf32",
                 "reference": "9e403941ef9d65d20cba7d54e29fe906db42cf32",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0",
@@ -247,13 +223,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
                 "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -302,13 +272,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
                 "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -358,13 +322,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -411,13 +369,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/slimphp/Slim/zipball/f4947cc900b6e51cbfda58b9f1247bca2f76f9f0",
                 "reference": "f4947cc900b6e51cbfda58b9f1247bca2f76f9f0",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "container-interop/container-interop": "^1.2",
@@ -477,14 +429,47 @@
             "time": "2019-01-15T13:21:25+00:00"
         },
         {
-            "name": "vimac/yz-cloud-boot",
+            "name": "youzanyun/extension-point-api",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vimac/yz-cloud-boot",
-                "reference": "56fbc1dbb2412ec0d8e74bbd48169845c3ffa232"
+                "url": "https://github.com/youzanyun/extension-point-api",
+                "reference": "ddca874a8d2719794740fca0441125a80691cff5"
             },
             "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ExtensionPointApi\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "allen",
+                    "email": "wangxing@youzan.com"
+                }
+            ],
+            "time": "2019-04-03T03:37:51+00:00"
+        },
+        {
+            "name": "youzanyun/yz-cloud-boot",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/youzanyun/yz-cloud-boot",
+                "reference": "3c7e7bce1fac1715bd76d4370369152bd2c071b2"
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-pdo": "*",
                 "monolog/monolog": "^1.24",
                 "php": ">=7.1.0",
                 "slim/slim": "^3.0"
@@ -517,14 +502,15 @@
                     "email": "vifix.mac@gmail.com"
                 }
             ],
-            "time": "2019-02-27T11:13:12+00:00"
+            "time": "2019-04-02T08:40:05+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "vimac/yz-cloud-boot": 20
+        "youzanyun/yz-cloud-boot": 20,
+        "youzanyun/extension-point-api": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
