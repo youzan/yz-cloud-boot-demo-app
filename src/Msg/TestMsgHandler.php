@@ -19,6 +19,6 @@ class TestMsgHandler extends BaseComponent implements MessageHandler
     public function handle(NotifyMessage $notifyMessage): void
     {
         // TODO: Implement handle() method.
-        $this->getLog()->info("receiver message");
+        $this->getLog()->info("receiver message" . $notifyMessage->getData());
     }
 }
