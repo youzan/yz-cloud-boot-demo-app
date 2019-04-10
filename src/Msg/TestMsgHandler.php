@@ -9,9 +9,9 @@
 namespace YouzanCloudBootApp\Msg;
 
 
-use Com\Youzan\Cloud\Extension\Api\Message\MessageHandler;
-use Com\Youzan\Cloud\Extension\Param\NotifyMessage;
 use YouzanCloudBoot\Component\BaseComponent;
+use YouzanCloudBoot\ExtensionPoint\Api\Message\MessageHandler;
+use YouzanCloudBoot\ExtensionPoint\Api\Message\Metadata\NotifyMessage;
 
 class TestMsgHandler extends BaseComponent implements MessageHandler
 {
