@@ -5,20 +5,12 @@
     "license": "MIT",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type":"git",
-            "url": "https://github.com/youzanyun/yz-cloud-boot"
-        },
-        {
-            "type":"git",
-            "url": "https://github.com/youzanyun/extension-point-api"
-        }
-    ],
+
     "require": {
         "php": ">=7.1.0",
         "youzanyun/yz-cloud-boot": "dev-master",
-        "youzanyun/extension-point-api": "dev-master"
+        "youzanyun/extension-point-api": "dev-master",
+        "youzanyun/open-sdk": ">=2.0.3"
     },
     "autoload": {
         "psr-4": {
