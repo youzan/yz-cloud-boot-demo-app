@@ -6,7 +6,7 @@
  * Time: 17:13
  */
 
-namespace YouzanCloudBootApp\Msg;
+namespace YouzanCloudBootApp\Mep;
 
 
 use YouzanCloudBoot\Component\BaseComponent;
