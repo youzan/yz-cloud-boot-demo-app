@@ -12,10 +12,8 @@ class TemplateController extends BaseComponent
 
     public function example(Request $request, Response $response, $args)
     {
-        /** @var ViewFacade $view */
-        $view = $this->getContainer()->get('view');
-        return $view->render($response, 'example.twig', [
-            'name' => $args['name'] ?? 'World1'
+        return ViewFacade::render($response, 'example.twig', [
+            'name' => $args['name'] ?? 'World'
         ]);
     }
 
