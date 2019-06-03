@@ -1,7 +1,7 @@
 <?php
 
-/** @var \YouzanCloudBoot\ExtensionPoint\BeanRegistry $bepReg */
+/** @var \YouzanCloudBoot\ExtensionPoint\BepRegistry $bepReg */
 
-$bepReg->registerBean('testBep', \YouzanCloudBootApp\Bep\DemoBepImpl::class, "1.0.0");
+$bepReg->register('testBep', \YouzanCloudBootApp\Bep\DemoBepImpl::class, "1.0.0");
 
 

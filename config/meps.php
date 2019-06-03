@@ -1,7 +1,7 @@
 <?php
 
-/** @var \YouzanCloudBoot\ExtensionPoint\TopicRegistry $mepReg */
+/** @var \YouzanCloudBoot\ExtensionPoint\MepRegistry $mepReg */
 
-$mepReg->registerTopic('testTopic', \YouzanCloudBootApp\Mep\TestMsgHandler::class);
+$mepReg->register('testTopic', \YouzanCloudBootApp\Mep\TestMsgHandler::class);
 
 
