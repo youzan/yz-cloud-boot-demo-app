@@ -2,20 +2,20 @@
 
 namespace YouzanCloudBootApp\Bep;
 
-use Com\Youzan\Cloud\Extension\Param\Test\BizTestOutParam;
+use Com\Youzan\Cloud\Extension\Api\Test\BizTestService;
 use Com\Youzan\Cloud\Extension\Param\Test\BizTestRequest;
 use Com\Youzan\Cloud\Extension\Param\Test\BizTestResponse;
+use Com\Youzan\Cloud\Extension\Param\Test\BizTestResponseOutParam;
 use YouzanCloudBoot\ExtensionPoint\BaseBusinessExtensionPointImpl;
-use Com\Youzan\Cloud\Extension\Api\BizTestService;
 
 class DemoBepImpl extends BaseBusinessExtensionPointImpl implements BizTestService
 {
 
-    public function invoke(BizTestRequest $bizTestRequest): BizTestOutParam
+    public function invoke(BizTestRequest $bizTestRequest): BizTestResponseOutParam
     {
         // TODO: Implement invoke() method.
         $this->getLog()->info($bizTestRequest->getData()->getContent());
-        $result = new BizTestOutParam();
+        $result = new BizTestResponseOutParam();
         $result->setCode("200");
         $result->setMessage("call success");
         $result->setSuccess(true);
@@ -23,8 +23,8 @@ class DemoBepImpl extends BaseBusinessExtensionPointImpl implements BizTestServi
         $response = new BizTestResponse();
         $response->setContent("test content response");
         $response->setRequestId(100);
-        $result->setData($response);
 
+        $result->setData($response);
         return $result;
     }
 }
