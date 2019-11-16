@@ -1,0 +1,19 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "youzanyun dev",
+    "release": "youzanyun save"
+  },
+  "author": "youzanyun",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-vue": "^4.5.0"
+  },
+  "dependencies": {
+    "vant": "^1.1.6",
+    "vue": "2.5.16"
+  }
+}
