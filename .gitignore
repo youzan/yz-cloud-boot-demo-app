@@ -2,3 +2,4 @@ vendor
 *.iml
 .idea
 composer.lock
+package-lock.json
