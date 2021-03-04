@@ -11,7 +11,7 @@ $app->get('/templates/example/{name}', \YouzanCloudBootApp\Controller\TemplateCo
 
 
 $app->get('/demo/env', \YouzanCloudBootApp\Controller\DemoController::class . ':env');
+$app->get('/demo/env/{name}', \YouzanCloudBootApp\Controller\DemoController::class . ':env');
 $app->get('/demo/mysql', \YouzanCloudBootApp\Controller\DemoController::class . ':mysql');
 $app->get('/demo/redis', \YouzanCloudBootApp\Controller\DemoController::class . ':redis');
 $app->get('/demo/proxyHttp', \YouzanCloudBootApp\Controller\DemoController::class . ':proxyHttp');
-$app->get('/demo/apollo/{api}', \YouzanCloudBootApp\Controller\DemoController::class . ':apollo');
