@@ -16,18 +16,12 @@ class DemoController extends BaseComponent
 {
     public function env(Request $request, Response $response, $args)
     {
-        return $response->withJson($_SERVER);
+        if (isset($args['name'])) {
+            return $response->withJson($this->getEnvUtil()->get($args['name']));
+        } else {
+            return $response->withJson($_SERVER);
+        }
     }
-
-
-    public function apollo(Request $request, Response $response, $args)
-    {
-        $api = $args['api'] ?? 'youzan.proxy.token';
-        $env = $this->getEnvUtil();
-        $v = $env->getFromApollo($api);
-        return $response->withJson($v);
-    }
-
 
     public function mysql(Request $request, Response $response, $args)
     {
