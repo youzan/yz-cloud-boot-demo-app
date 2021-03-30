@@ -25,6 +25,9 @@
 
 `curl -XPOST "http://localhost:18888/business-extension-point/com.youzan.cloud.extension.api.BizTestService/invoke" -H 'Content-Type:application/json'  -H 'Transfer-Encoding:chunked' -H 'Bean-Name:testBep' -H 'Bean-Tag:1.0.0' -H 'Param-Type:com.youzan.cloud.extension.param.test.TestRequest'  -d '{"requestId":1,"data":{"number":100,"content":"测试扩展点"}}'`
 
-Web 访问测试：
+Web访问测试：
 
 直接浏览器访问 http://localhost:18888
+
+## Demo
+请参照 config/routes.php 中的demo示例
