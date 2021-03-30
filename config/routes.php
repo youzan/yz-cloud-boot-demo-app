@@ -21,7 +21,7 @@ $app->get('/templates/example/{name}', \YouzanCloudBootApp\Controller\TemplateCo
 $app->get('/http', \YouzanCloudBootApp\Controller\DemoController::class . ':http');
 
 /**
- * token托管，请将授权应用的店铺id替换掉{id}
+ * token托管，访问token获取路由时，{id} 需替换为授权应用的店铺id
  * 在开发环境中先触发code回调到回调地址，示例回调地址设置为/demo/code这个路径
  */
 $app->get('/demo/code', \YouzanCloudBootApp\Controller\DemoController::class . ':code');
@@ -47,7 +47,7 @@ $app->get('/demo/mysql', \YouzanCloudBootApp\Controller\DemoController::class . 
 
 /**
  * redis示例
- * {name} 为redis的key值，示例默认会写入key=hello，value=hello world
+ * 访问路由时 {name} 需替换为redis的key值，示例默认会写入key=hello，value=hello world
  */
 $app->get('/demo/redis/{name}', \YouzanCloudBootApp\Controller\DemoController::class . ':redis');
 
