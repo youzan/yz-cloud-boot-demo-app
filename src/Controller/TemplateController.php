@@ -19,7 +19,7 @@ class TemplateController extends BaseComponent
 
     public function uploadImage(Request $request, Response $response, $args)
     {
-        return ViewFacade::render($response, 'upload.twig',['kdtId' => $args['kdtId']]);
+        return ViewFacade::render($response, 'upload.twig');
     }
 
     public function postForm(Request $request, Response $response, $args)
